@@ -540,12 +540,11 @@ const supplyBundle: ActionBundle = await poolBundle.supplyBundle({
   amount,
   onBehalfOf,
 });
+```
 
-// Submit bundle components as shown in #bundle-methods section
+Submit transaction(s) as shown [in #bundle-methods section](#bundle-methods)
 
 </details>
-
-<br />
 
 ### supply
 
@@ -1165,12 +1164,8 @@ const depositBundle: ActionBundle = await lendingPoolBundle.depositBundle({
   amount,
   onBehalfOf,
 });
-
-// Submit bundle components as shown in #bundle-methods section
-
+```
 </details>
-
-<br />
 
 ### deposit
 
